@@ -1,1 +1,62 @@
 /* Add your CSS here */
+html {
+    width: auto;
+    height: auto;
+    font-family: sans-serif, serif, monospace;
+    background-color: lightgray;
+    background-image: linear-gradient(to right, lightgray, darkslategray);
+}
+
+body {
+    background-color: white;
+    height: 100%;
+    margin-left: -1%;
+    margin-right: -1%;
+}
+
+header {
+    background-color: lightgray;
+    background-image: linear-gradient(to right, lightgray, darkslategray);
+    padding: 1em;
+    padding-bottom: 0.5em;
+}
+div {
+    display: flex;
+    padding: 1em;
+}
+form {
+    flex: 1 200px;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+input {
+    flex: 5 200px;
+    display: flex wrap;
+    flex-flow: row;
+    width: 100%;
+    margin-top: 1em;
+    height: 2em;
+}
+
+#search {
+    background-color: salmon;
+    color: white;
+    font-size: 19px;
+}
+
+.explore {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 15%;
+    border: solid 1px gray;
+}
+
+/* Media Query */
+
+@media screen and (min-width: 300px) {
+    
+}

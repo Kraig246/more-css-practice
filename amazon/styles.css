@@ -1,1 +1,71 @@
 /* Add your CSS here */
+html {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif, serif, monospace;
+}
+
+h1 {
+    color: coral;
+}
+
+p {
+    color: darkslategray;
+}
+
+h2 {
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+/*This is for the links*/
+
+.browse:link {
+    color: darkcyan;
+}
+
+.browse:visited {
+    color: green;
+}
+
+.browse:active {
+    color: antiquewhite;
+}
+
+.browse:hover {
+    color: aqua;
+    font-size: 1.1em;
+}
+
+.categ:link {
+    text-decoration: none;
+}
+
+.categ {
+    text-decoration: none;
+    color: cadetblue;
+    margin-top: 1em;
+}
+
+.categ:visited {
+    color: green;
+    text-decoration: none;
+}
+
+.categ:active {
+    color: antiquewhite;
+    text-decoration: underline;
+}
+
+.categ:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    margin: 1em;
+}

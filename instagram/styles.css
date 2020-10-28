@@ -1,1 +1,47 @@
-/* Add your CSS here */
+html {
+    font-family: sans-serif, serif, monospace;
+    width: auto;
+    height: auto;
+}
+
+#sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid gray;
+    overflow-x: hidden;
+    padding: 12px;
+}
+
+#sidenav h2 {
+    font-weight: 100;
+    font-size: 23px;
+}
+
+#sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    display: block;
+    color: black;
+}
+
+#sidenav a:hover {
+    color: deepskyblue;
+}
+
+#sidenav a:active {
+    color: deeppink;
+}
+
+#main {
+    margin-left: 160px;
+    padding-left: 60px;
+    margin-right: 260px;
+}
+
+#main h1, #main h2, #main h3 {
+    font-weight: 300;
+}

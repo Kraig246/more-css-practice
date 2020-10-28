@@ -1,1 +1,81 @@
-/* Add your CSS here */
+html {
+    font-family: sans-serif, monospace, serif;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    align-content: flex-start;
+}
+
+p {
+    text-align: center;
+}
+
+.paragraph {
+    text-align: justify;
+    margin-left: 10em;
+}
+
+a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+a:link {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+a:visited {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+a:hover {
+    text-decoration: none;
+    color: yellowgreen;
+    font-size: 17px;
+}
+
+a:active {
+    text-decoration: none;
+    color: mediumvioletred;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    align-content: center;
+}
+
+h2 {
+    font-size: 19px;
+    font-weight: 500;
+}
+article {
+    width: 40%;
+    justify-content: space-between;
+    float: right;
+    padding: 5em;
+}
+
+img {
+    margin-right: 2em;
+    float: left;
+}
+
+nav {
+    padding 0 15px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 38%;
+}
+
+li {
+    padding: 1em;
+}
